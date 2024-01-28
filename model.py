@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.svm import SVC
 from data_extractor import Web_Scrap
 
-file_path = 'Hackathon/dataFinal.csv'
+file_path = 'dataFinal.csv'
 df = pd.read_csv(file_path)
 # print(df)
 
